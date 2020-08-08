@@ -1,0 +1,17 @@
+{
+  "name": "@tinysource/sizer",
+  "version": "1.0.0",
+  "description": "Determine the compiled, minified, and compressed size of a single Typescript file.",
+  "bin": "./index.js",
+  "license": "Unlicense",
+  "dependencies": {
+    "terser": "^5.0.0",
+    "typescript": "^3.9.7"
+  },
+  "devDependencies": {
+    "react": "^16.13.1"
+  },
+  "main": "index.js",
+  "repository": "https://github.com/tinysource/sizer.git",
+  "author": "Chris Ackerman <chris@topher.land>"
+}
